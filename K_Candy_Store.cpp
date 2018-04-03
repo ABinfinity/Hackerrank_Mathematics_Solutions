@@ -22,7 +22,7 @@ int comb(int n, int k)
     }
     return (C[n][k]%mod);
 }
-int main()
+void main()
 {
     ll t,n,k,res;
     cin>>t;
@@ -32,5 +32,5 @@ int main()
         res=comb(n+k-1,k);
         cout<<res<<endl;
     }
-    return 0;
+    
 }
